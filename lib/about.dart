@@ -1,4 +1,3 @@
-// about.dart
 import 'package:flutter/material.dart';
 
 class AboutPage extends StatelessWidget {
@@ -7,7 +6,7 @@ class AboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color(0xFFFFF9E6), // Same cream background as home
+      color: Color(0xFFFFF9E6), 
       padding: const EdgeInsets.all(16),
       child: Row(
         children: [
@@ -33,7 +32,7 @@ class AboutPage extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.bold,
-                      color: Color(0xFF4C7FD9), // Using midBlue
+                      color: Color(0xFF4C7FD9), 
                     ),
                   ),
                   SizedBox(height: 16),
@@ -44,7 +43,7 @@ class AboutPage extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 16,
                       height: 1.5,
-                      color: Colors.black87,
+                      color: Colors.black,
                     ),
                   ),
                 ],

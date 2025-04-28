@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'checkout.dart'; // Make sure this file exists and is imported
+import 'checkout.dart';
 
 const _cream = Color(0xFFFFF9E6);
 const _midBlue = Color(0xFF4C7FD9);
@@ -202,7 +202,7 @@ class MenuItem {
 }
 
 
-// Replace upper-bound price ranges with base prices only
+
 const _signatureItems = [
   MenuItem(name: 'Blue Babe Matcha', subtitle: 'Blueberry Matcha Latte', description: 'Ceremonial‑grade matcha, honey‑sweetened blueberry jam, and your choice of milk. Try it with blueberry cold foam!', price: '\$7.50'),
   MenuItem(name: 'Brunei Dirty Matcha', subtitle: 'Matcha latte with a shot of espresso', description: 'Ceremonial‑grade matcha, a bold espresso shot, maple syrup, and your choice of milk.', price: '\$7.50'),

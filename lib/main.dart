@@ -5,7 +5,6 @@ import 'about.dart';
 
 void main() => runApp(const HoneyVeilApp());
 
-/// App root with a single Scaffold that owns the NavigationBar.
 class HoneyVeilApp extends StatelessWidget {
   const HoneyVeilApp({Key? key}) : super(key: key);
 
