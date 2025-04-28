@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'order.dart';  
-import 'checkout.dart';              
+import 'checkout.dart';  
+import 'about.dart';           
 
 void main() => runApp(const HoneyVeilApp());
 
@@ -133,13 +134,4 @@ class HomePage extends StatelessWidget {
       ],
     );
   }
-}
-
-class AboutPage extends StatelessWidget {
-  const AboutPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) => Center(
-        child: Text('About Honey Veil', style: const TextStyle(fontSize: 24)),
-      );
 }
