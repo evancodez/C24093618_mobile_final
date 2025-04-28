@@ -117,7 +117,7 @@ class HomePage extends StatelessWidget {
                     padding: const EdgeInsets.all(16),
                     child: Text(
                       'At Honey Veil, we drizzle every pastry with warmth and craft every cup with care. '
-                      'From sun‑kissed honey‑glazed croissants to velvety cappuccinos, our food‑truck‑turned‑café '
+                      'From sun‑kissed honey‑glazed cinnamon rolls to summery matcha, our food‑truck‑turned‑café '
                       'has one goal: wrap your day in a sweet, golden veil of comfort.',
                       style: Theme.of(context)
                           .textTheme

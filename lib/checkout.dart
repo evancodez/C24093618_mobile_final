@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'order.dart'; // for MenuItem definition
+import 'order.dart'; 
 
 class CheckoutPage extends StatelessWidget {
   final Map<String, int> cart;
